@@ -1,0 +1,97 @@
+body
+{
+    background-color: azure;
+    
+}
+
+.contenedor-principal
+{
+    border: 1px solid black;
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.conten_cajas
+{
+    width: 98%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+
+
+}
+
+.caja1
+{
+    background-color: rgb(9, 238, 9);
+    border: 1px solid rgb(2, 75, 0);
+    width: 30%;
+    height: 150px;
+    display: inline-block;
+    
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+.caja2
+{
+    background-color: rgb(241, 15, 15);
+    border: 1px solid rgb(2, 75, 0);
+    width: 30%;
+    height: 150px;
+    display: inline-block;
+    
+    margin: auto;
+    
+}
+
+
+.caja1:hover
+{
+    width: 35%;
+    height: 200px;
+    transition: 900ms;
+    cursor: pointer;
+    
+}
+
+
+
+
+.caja2:hover
+{
+    background-color: azure;
+    transition-delay: 10ms;
+    border: 1px solid azure;
+    transition: 300ms;
+    color: azure;
+    cursor: not-allowed;
+}
+
+
+
+
+h1
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.no
+{   text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
